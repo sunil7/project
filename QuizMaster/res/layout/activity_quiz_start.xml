@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_box"
+    tools:context=".QuizStartActivity" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/StextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/DarkSlateGray"
+        android:height="60dp"
+        android:text="Q.num"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/Sbutton00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/SlinearLayout01"
+        android:background="@drawable/gradient_box"
+        android:height="60dp"
+        android:text="Speak"
+        android:textColor="#120033"
+        android:textSize="35sp"
+        android:width="350dp" />
+
+    <LinearLayout
+        android:id="@+id/SlinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_above="@+id/SlinearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Indigo"
+        android:minHeight="70dp"
+        android:minWidth="250sp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/STextView01"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:height="80dp"
+            android:text="Time left"
+            android:textColor="#ffccff"
+            android:textSize="15sp"
+            android:width="130dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Sbutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Sbutton2"
+        android:layout_below="@+id/Sbutton2"
+        android:background="@drawable/start"
+        android:height="10dp"
+        android:minHeight="20dp"
+        android:text="op3"
+        android:textSize="20sp"
+        android:width="550dp" />
+
+    <Button
+        android:id="@+id/Sbutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Sbutton3"
+        android:layout_below="@+id/Sbutton3"
+        android:background="@drawable/start"
+        android:height="20dp"
+        android:minHeight="10dp"
+        android:text="op4"
+        android:textSize="20sp"
+        android:width="550dp" />
+
+    <Button
+        android:id="@+id/Sbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Sbutton1"
+        android:layout_below="@+id/Sbutton1"
+        android:background="@drawable/start"
+        android:height="20dp"
+        android:minHeight="10dp"
+        android:text="op2"
+        android:textSize="20sp"
+        android:width="550dp" />
+
+    <Button
+        android:id="@+id/Sbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SlinearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/start"
+        android:height="20dp"
+        android:minHeight="10dp"
+        android:text="op1"
+        android:textSize="20sp"
+        android:width="550dp" />
+
+    <Button
+        android:id="@+id/SButton03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SButton02"
+        android:layout_alignBottom="@+id/SButton02"
+        android:layout_alignRight="@+id/Sbutton4"
+        android:background="@drawable/customborder"
+        android:height="60dp"
+        android:minHeight="5dp"
+        android:text="Next"
+        android:textColor="#120033"
+        android:textSize="30dp"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/SButton02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Sbutton4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/customborder"
+        android:height="60dp"
+        android:minHeight="5dp"
+        android:text="Skip"
+        android:textColor="#120033"
+        android:textSize="30dp"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/SButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SButton02"
+        android:layout_alignBottom="@+id/SButton02"
+        android:layout_alignLeft="@+id/Sbutton4"
+        android:background="@drawable/customborder"
+        android:height="60dp"
+        android:minHeight="5dp"
+        android:text="Hint"
+        android:textColor="#120033"
+        android:textSize="30sp"
+        android:width="150dp" />
+
+    <TextView
+        android:id="@+id/STextView010"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/Sbutton00"
+        android:layout_below="@+id/StextView1"
+        android:background="@color/DarkBlue"
+        android:height="70dp"
+        android:text="Q. num"
+        android:textColor="#ffccff"
+        android:textSize="35sp"
+        android:width="150dp" />
+
+    <LinearLayout
+        android:id="@+id/SlinearLayout1"
+        android:layout_width="575dp"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/STextView010"
+        android:layout_below="@+id/STextView010"
+        android:background="@drawable/customborder"
+        android:minHeight="70dp"
+        android:minWidth="360sp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/StextView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:height="167dp"
+            android:includeFontPadding="true"
+            android:lines="6"
+            android:maxLines="6"
+            android:minLines="1"
+            android:scrollHorizontally="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:text="Q."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

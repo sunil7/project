@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_box"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/Mbutton1"
+        style="@style/CustomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/database_add_48"
+        android:ellipsize="start"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/Mbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Mbutton1"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/customborder"
+        android:height="80dp"
+        android:text="Start"
+        android:textSize="30dp"
+        android:width="350dp" />
+
+    <Button
+        android:id="@+id/Mbutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Mbutton3"
+        android:layout_below="@+id/Mbutton3"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/customborder"
+        android:height="80dp"
+        android:text="Exit"
+        android:textSize="30dp"
+        android:width="350dp" />
+
+    <Button
+        android:id="@+id/Mbutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Mbutton2"
+        android:layout_below="@+id/Mbutton2"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/customborder"
+        android:height="80dp"
+        android:text="Result"
+        android:textSize="30dp"
+        android:width="350dp" />
+
+    <TextView
+        android:id="@+id/MtextView1"
+        style="@style/CustomText"
+        android:layout_width="450dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/Mbutton1"
+        android:layout_marginRight="86dp"
+        android:layout_toLeftOf="@+id/Mbutton1"
+        android:height="60dp"
+        android:text="check for update----------------->"
+        android:textSize="20dp"
+        android:width="15dp" />
+</RelativeLayout>
